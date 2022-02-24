@@ -1,6 +1,6 @@
-import App from "./App.svelte";
+import Main from "./Main.svelte";
 
-const app = new App({
+const main = new Main({
   target: document.querySelector("#__snel"),
   props: {},
 });
